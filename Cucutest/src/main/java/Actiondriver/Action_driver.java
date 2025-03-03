@@ -7,7 +7,7 @@ import Datafactory.Data_factory;
 public class Action_driver extends Data_factory {
 	
 	public String gettitle () {
-			
+			System.out.println();
 			String actualtitle = driver.getTitle();
 			return actualtitle;
 		}
